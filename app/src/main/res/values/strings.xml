@@ -97,4 +97,7 @@
     <string name="recommendedmoney">¥ 0</string>
     <string name="change">Change</string>
     <string name="okay">OKAY</string>
+    <string name="title_activity_change_select">ChangeSelectActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>

@@ -3,10 +3,10 @@ package com.example.toyoshin.coins
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 
-class ChangeCheckActivity : AppCompatActivity() {
+class resultActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_change_check)
+        setContentView(R.layout.activity_result)
     }
 }

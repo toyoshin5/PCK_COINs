@@ -15,6 +15,12 @@ import java.util.*
 
 class voiceActivity : AppCompatActivity() {
 
+    //テスト用(¥1200円が入力)
+    fun test(view:View){
+        val intent = Intent(this, CombinationResultActivity::class.java)
+        intent.putExtra("total",1200)
+        startActivity(intent)
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setTitle("Voice Input")
@@ -38,7 +44,7 @@ class voiceActivity : AppCompatActivity() {
         return
     }
 
-    //英語しかできない
+    //TODO "日本語対応"
 
     fun tapMike(view: View){
         //permissionチェック

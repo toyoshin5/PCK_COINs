@@ -12,7 +12,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChangeCheckActivity"></activity>
+        <activity android:name=".resultActivity"></activity>
+        <activity
+            android:name=".ChangeSelectActivity"
+            android:label="@string/title_activity_change_select"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".CombinationResultActivity"/>
         <activity android:name=".CombinationResultActivity" />
         <activity
             android:name=".mainActivity"
